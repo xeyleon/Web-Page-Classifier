@@ -1,5 +1,5 @@
 # Web-Page-Classifier
-A web page classifier implemented using Python 3. The program provides a terminal, menu-based interaction to the user.
+A web page classifier implemented using Python 3. A built-in web crawler is offered for dataset initialization. The program provides a terminal, menu-based interaction to the user.
 
 A supervised learning approach is adopted, using a dataset (corpus) consisting of numerous example pages from each topic, for classifier modeling. Although its accuracy is not optimal, due to its speed and versatility, the Naive Bayes classifier model is employed, along with Bag-of-Words (BOW) for feature extraction. To this end, the Natural Language Processing Kit (NLT) and Scikit-Learn Python modules are heavily utilized.
 
